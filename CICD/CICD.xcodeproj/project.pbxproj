@@ -12,7 +12,26 @@
 		DD161F872246256F003D2346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD161F852246256F003D2346 /* Main.storyboard */; };
 		DD161F892246256F003D2346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD161F882246256F003D2346 /* Assets.xcassets */; };
 		DD161F8C2246256F003D2346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD161F8A2246256F003D2346 /* LaunchScreen.storyboard */; };
+		DD161F9A22462715003D2346 /* CICDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD161F9922462715003D2346 /* CICDUITests.swift */; };
+		DD161FA822462729003D2346 /* CICDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD161FA722462729003D2346 /* CICDTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD161F9C22462715003D2346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD161F762246256F003D2346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD161F7D2246256F003D2346;
+			remoteInfo = CICD;
+		};
+		DD161FAA22462729003D2346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD161F762246256F003D2346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD161F7D2246256F003D2346;
+			remoteInfo = CICD;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DD161F7E2246256F003D2346 /* CICD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CICD.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +41,30 @@
 		DD161F882246256F003D2346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD161F8B2246256F003D2346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD161F8D2246256F003D2346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD161F9722462715003D2346 /* CICDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD161F9922462715003D2346 /* CICDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDUITests.swift; sourceTree = "<group>"; };
+		DD161F9B22462715003D2346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD161FA522462729003D2346 /* CICDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD161FA722462729003D2346 /* CICDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDTests.swift; sourceTree = "<group>"; };
+		DD161FA922462729003D2346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DD161F7B2246256F003D2346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD161F9422462715003D2346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD161FA222462729003D2346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				DD161F802246256F003D2346 /* CICD */,
+				DD161F9822462715003D2346 /* CICDUITests */,
+				DD161FA622462729003D2346 /* CICDTests */,
 				DD161F7F2246256F003D2346 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				DD161F7E2246256F003D2346 /* CICD.app */,
+				DD161F9722462715003D2346 /* CICDUITests.xctest */,
+				DD161FA522462729003D2346 /* CICDTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +105,24 @@
 				DD161F8D2246256F003D2346 /* Info.plist */,
 			);
 			path = CICD;
+			sourceTree = "<group>";
+		};
+		DD161F9822462715003D2346 /* CICDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD161F9922462715003D2346 /* CICDUITests.swift */,
+				DD161F9B22462715003D2346 /* Info.plist */,
+			);
+			path = CICDUITests;
+			sourceTree = "<group>";
+		};
+		DD161FA622462729003D2346 /* CICDTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD161FA722462729003D2346 /* CICDTests.swift */,
+				DD161FA922462729003D2346 /* Info.plist */,
+			);
+			path = CICDTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +145,42 @@
 			productReference = DD161F7E2246256F003D2346 /* CICD.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DD161F9622462715003D2346 /* CICDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD161FA022462715003D2346 /* Build configuration list for PBXNativeTarget "CICDUITests" */;
+			buildPhases = (
+				DD161F9322462715003D2346 /* Sources */,
+				DD161F9422462715003D2346 /* Frameworks */,
+				DD161F9522462715003D2346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD161F9D22462715003D2346 /* PBXTargetDependency */,
+			);
+			name = CICDUITests;
+			productName = CICDUITests;
+			productReference = DD161F9722462715003D2346 /* CICDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DD161FA422462729003D2346 /* CICDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD161FAC22462729003D2346 /* Build configuration list for PBXNativeTarget "CICDTests" */;
+			buildPhases = (
+				DD161FA122462729003D2346 /* Sources */,
+				DD161FA222462729003D2346 /* Frameworks */,
+				DD161FA322462729003D2346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD161FAB22462729003D2346 /* PBXTargetDependency */,
+			);
+			name = CICDTests;
+			productName = CICDTests;
+			productReference = DD161FA522462729003D2346 /* CICDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +193,14 @@
 				TargetAttributes = {
 					DD161F7D2246256F003D2346 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					DD161F9622462715003D2346 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DD161F7D2246256F003D2346;
+					};
+					DD161FA422462729003D2346 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DD161F7D2246256F003D2346;
 					};
 				};
 			};
@@ -113,6 +218,8 @@
 			projectRoot = "";
 			targets = (
 				DD161F7D2246256F003D2346 /* CICD */,
+				DD161F9622462715003D2346 /* CICDUITests */,
+				DD161FA422462729003D2346 /* CICDTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +235,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD161F9522462715003D2346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD161FA322462729003D2346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +261,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD161F9322462715003D2346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD161F9A22462715003D2346 /* CICDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD161FA122462729003D2346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD161FA822462729003D2346 /* CICDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD161F9D22462715003D2346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD161F7D2246256F003D2346 /* CICD */;
+			targetProxy = DD161F9C22462715003D2346 /* PBXContainerItemProxy */;
+		};
+		DD161FAB22462729003D2346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD161F7D2246256F003D2346 /* CICD */;
+			targetProxy = DD161FAA22462729003D2346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DD161F852246256F003D2346 /* Main.storyboard */ = {
@@ -312,6 +462,80 @@
 			};
 			name = Release;
 		};
+		DD161F9E22462715003D2346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CICDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curatech.CICDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CICD;
+			};
+			name = Debug;
+		};
+		DD161F9F22462715003D2346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CICDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curatech.CICDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CICD;
+			};
+			name = Release;
+		};
+		DD161FAD22462729003D2346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CICDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curatech.CICDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CICD.app/CICD";
+			};
+			name = Debug;
+		};
+		DD161FAE22462729003D2346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CICDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curatech.CICDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CICD.app/CICD";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +553,24 @@
 			buildConfigurations = (
 				DD161F912246256F003D2346 /* Debug */,
 				DD161F922246256F003D2346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD161FA022462715003D2346 /* Build configuration list for PBXNativeTarget "CICDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD161F9E22462715003D2346 /* Debug */,
+				DD161F9F22462715003D2346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD161FAC22462729003D2346 /* Build configuration list for PBXNativeTarget "CICDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD161FAD22462729003D2346 /* Debug */,
+				DD161FAE22462729003D2346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
